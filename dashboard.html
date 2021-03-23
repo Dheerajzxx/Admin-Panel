@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a00858f523.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <input type="checkbox" id="nav-toggle">
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <h2><img src="image_2.png" alt="" width="30px" height="30px"><span> KiddoRider </span></h2>
+        </div>
+
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <a href="#" class="active"><span class="fa fa-dashboard"></span><span>Dashboard</span></a>
+                </li>
+                <li>
+                    <a href="drivers.html"><span class="fas fa-car"></span><span>Drivers</span></a>
+                </li>
+                <li>
+                    <a href="passengers.html"><span class="fas fa-user-friends"
+                            style="font-size: 18px;"></span><span>Passengers</span></a>
+                </li>
+                <li>
+                    <a href=""><span class="fas fa-sign-out-alt"></span><span>Logout</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <h2>
+                <label for="nav-toggle">
+                    <span class="fas fa-bars"></span>
+                </label>
+                <span class="adminName">Admin Name</span>
+            </h2>
+        </header>
+
+        <main>
+            <div class="cards1">
+                <div class="card1-single">
+                    <div>
+                        <h1>50</h1>
+                        <span>Drivers</span>
+                    </div>
+                    <div>
+                        <span class="fas fa-car"></span>
+                    </div>
+                </div>
+                <div class="card1-single">
+                    <div>
+                        <h1>500</h1>
+                        <span>Passengers</span>
+                    </div>
+                    <div>
+                        <span class="fas fa-user-friends"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-grid">
+                <div class="card1">
+                    <div class="card1-header">
+                        <h3>New Drivers</h3>
+
+                        <a href="drivers.html">See All <span class="fas fa-arrow-right"></span> </a>
+                    </div>
+
+                    <div class="card1-body">
+                        <div class="table-responsive">
+                            <table width="100%">
+                                <thead>
+                                    <tr>
+                                        <td>Image</td>
+                                        <td>Name</td>
+                                        <td>Training</td>
+                                        <td>Email</td>
+                                        <td></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="" alt="" width="40px" height="40px"></td>
+                                        <td>Vishal</td>
+                                        <td>25%</td>
+                                        <td>driver@gmail.com</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="card1 card2">
+                    <div class="card1-header">
+                        <h3>Passengers</h3>
+                        <a href="passengers.html">See All <span class="fas fa-arrow-right"></span> </a>
+                    </div>
+
+                    <div class="card1-body">
+                        <div class="table-responsive">
+                            <table width="100%">
+                                <thead>
+                                    <tr>
+                                        <td>Image</td>
+                                        <td>Name</td>
+                                        <td>Email</td>
+                                        <td></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="" alt="" width="40px" height="40px"></td>
+                                        <td>Vishal</td>
+                                        <td>passenger@gmail.com</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="style.js"></script>
+</body>
+
+</html>
